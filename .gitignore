@@ -1,0 +1,40 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Application data (database, secrets, exports)
+db_tool/app_data/tool.db
+db_tool/app_data/tool.db-*
+db_tool/app_data/.secret.key
+db_tool/app_data/exports/
+
+# Logs
+*.log
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# Archives
+*.zip
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Obsidian
+.obsidian/

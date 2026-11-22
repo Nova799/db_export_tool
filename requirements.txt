@@ -1,0 +1,19 @@
+# Core dependencies
+# tkinter is part of the standard library (Python GUI)
+sv-ttk>=2.6  # Modern theme for Tkinter (Sun Valley)
+argon2-cffi==23.1.0  # Secure password hashing (app login)
+cryptography>=42.0  # Reversible secret encryption (DB/SP credentials)
+aiosmtplib>=2.0  # For potential email notifications
+requests>=2.31.0  # HTTP client for Graph API / SharePoint
+# sqlite3 is part of the standard library (no pip package)
+
+# Database drivers
+psycopg2-binary>=2.9  # PostgreSQL
+pymysql>=1.1  # MySQL
+pymssql>=2.2  # SQL Server
+
+# Scheduling (automatic runs)
+APScheduler>=3.10
+
+# Packaging (later)
+# pyinstaller>=6.0
