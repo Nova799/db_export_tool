@@ -43,11 +43,7 @@ jobs:
         with:
           tag_name: v${{ github.run_number }}
           name: "DB Export Tool v${{ github.run_number }}"
-          body: |
-            Build automatique depuis le commit ${{ github.sha }}.
-            Téléchargez `DBExportTool.exe` ci-dessous.
+          body: "Build automatique depuis le commit ${{ github.sha }}."
           files: dist/DBExportTool.exe
-          draft: false
-          prerelease: false
 EOF
 echo "workflow updated"
